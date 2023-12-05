@@ -6,4 +6,4 @@ from django.http.response import JsonResponse
 @csrf_exempt
 def restaurantApi(request):
     if request.method == 'GET':
-        return JsonResponse({'name':'chiraag'})
+        return JsonResponse({'message':'welcome in django'})
